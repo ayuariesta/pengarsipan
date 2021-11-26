@@ -15,6 +15,7 @@ class SuratController extends Controller
 
         $data_surat = DB::table('surat')
         ->orderByRaw('created_at DESC')
+        ->whereRaw("1=2")
         ->paginate(10);
 
         
