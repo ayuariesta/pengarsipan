@@ -239,7 +239,8 @@ ul.alert-dropdown {
 .form-wrapper {
     display: flex;
     align-items: center;
-    margin-bottom: 12px; }
+    margin-bottom: 12px;
+}
 
 .form-wrapper label {
     width: 15%; }
