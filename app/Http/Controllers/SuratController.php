@@ -53,7 +53,7 @@ class SuratController extends Controller
             ]);
 
             $file = $request->file('file_arsip');
-            
+
             $file_name = $file->getClientOriginalName();
             $file_extension = $file->getClientOriginalExtension();
             $file_real_path = $file->getRealPath();
